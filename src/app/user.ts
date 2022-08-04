@@ -14,4 +14,8 @@ export class User {
     set name(name: string) {
         this._name = name;
     }
+
+    public displayName(){
+        console.log(`User Name: ${this.name}`)
+    }
 }
